@@ -230,6 +230,7 @@ export default defineConfig(({ mode }) => {
             entryFileNames: 'static/client.js',
           },
         },
+        assetsDir: 'static/assets',
       },
     }
   } else {
